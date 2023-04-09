@@ -1,0 +1,100 @@
+
+.logo{
+    width: 300px;
+    height: 185px;
+    border:5px solid gray;
+}   
+nav{
+    background-color: white;
+    height: 150px;
+}
+nav ul{float: right;
+    margin-right: 40px;
+}
+
+ nav ul li{ 
+    display: inline;
+    list-style-type: none;
+
+    padding: 5px;
+   
+
+}
+section{
+    background-color:darkorange;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+}
+.corp{
+    background-color: darkblue;
+    height: 600px;
+}
+h1{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-left: 200px;
+    padding-top: 1px;
+}
+.developer{position: absolute;
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+   
+}
+form{background-color: white;
+    height: 650px;
+    width: 450px;
+    margin-top: -50px;
+    margin-left: 200px;
+    padding-bottom: 0px;
+    padding-top: 4px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+#accueil{
+    color:blue;
+}
+input[type='email'],input[type='password']{
+    border: 1px solid black;
+    width: 430px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 4px;
+}
+ label[ for="email"]{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: start;
+}
+
+button{position: absolute;
+    color: white;
+    background-color:blue;
+    padding: 3px;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+form a{
+    text-decoration: none;
+}
+h3{
+   text-align: center;
+}
+h4{
+   text-align: center;
+   padding-top: 30px;
+}
+.image{display: inline;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+
+}
+.foot a{ 
+    text-align: end;
+    padding: 1px;
+}
